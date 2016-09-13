@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php echo $this->element('Layout/head') ?>
+    <?php
+        echo $this->element('Layout/head');    
+    ?>
 </head>
 <body>
     <div id="wrapper">

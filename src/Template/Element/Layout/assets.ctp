@@ -14,4 +14,7 @@ echo $this->FrontendBridge->getAppDataJs();
 echo $this->AssetCompress->script('scripts.js', [
     'raw' => Configure::read('AssetCompress.rawMode')
 ]);
+
+echo $this->Html->script('vendor/highcharts.js');
+
 echo $this->fetch('script');

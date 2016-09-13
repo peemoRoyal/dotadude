@@ -1,0 +1,58 @@
+{
+    "replay": [
+        {
+            "data": {
+                "posX": 182,
+                "posY": 176,
+                "hero_name": "CDOTA_Unit_Hero_EarthSpirit"
+            },
+            "tick": 2252,
+            "type": "entity"
+        },
+        {
+            "data": {
+                "posX": 123,
+                "posY": 186,
+                "hero_name": "CDOTA_Unit_Hero_EarthSpirit"
+            },
+            "tick": 2252,
+            "type": "entity"
+        },
+        {
+            "data": {
+                "posX": 444,
+                "posY": 186,
+                "hero_name": "pudge"
+            },
+            "tick": 2253,
+            "type": "entity"
+        },
+        {
+            "data": {
+                "posX": 644,
+                "posY": 852,
+                "hero_name": "CDOTA_Unit_Hero_EarthSpirit"
+            },
+            "tick": 2255,
+            "type": "entity"
+        },
+        {
+            "data": {
+                "posX": 445,
+                "posY": 113,
+                "hero_name": "CDOTA_Unit_Hero_EarthSpirit"
+            },
+            "tick": 2257,
+            "type": "entity"
+        },
+        {
+            "data": {
+                "posX": 358,
+                "posY": 456,
+                "hero_name": "CDOTA_Unit_Hero_EarthSpirit"
+            },
+            "tick": 2399,
+            "type": "entity"
+        }
+    ]
+}

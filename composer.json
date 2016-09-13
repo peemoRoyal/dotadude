@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.5.9",
-        "cakephp/cakephp": "~3.2",
+        "cakephp/cakephp": "3.3.0-beta",
         "mobiledetect/mobiledetectlib": "2.*",
         "cakephp/migrations": "~1.0",
         "cakephp/plugin-installer": "*",
@@ -14,14 +14,10 @@
         "codekanzlei/cake-list-filter": "dev-master",
         "codekanzlei/cake-cktools": "dev-master",
         "codekanzlei/cake-frontend-bridge": "dev-master",
-        "codekanzlei/cake-attachments": "dev-master",
-        "codekanzlei/cake-notifications": "dev-master",
-        "codekanzlei/cake-model-history": "dev-master",
         "codekanzlei/cake-bootstrap3": "dev-master",
         "scherersoftware/cake-monitor": "dev-master",
-        "scherersoftware/cake-cms": "dev-master",
         "scherersoftware/cake-api-baselayer": "dev-master",
-        "scherersoftware/cake-wiki": "dev-master",
+        "codekanzlei/cake-model-history": "dev-master",
         "cakephp/cakephp-codesniffer": "dev-master",
         "markstory/asset_compress": "3.0.*",
         "tedivm/jshrink": "~1.0",
@@ -29,14 +25,14 @@
         "oyejorge/less.php": "*",
         "admad/cakephp-glide": "dev-master",
         "jdorn/sql-formatter": "^1.2",
-        "josegonzalez/dotenv": "^2.0",
-        "josegonzalez/cakephp-queuesadilla": "dev-master"
+        "josegonzalez/dotenv": "^2.0"
     },
     "require-dev": {
         "psy/psysh": "@stable",
         "cakephp/debug_kit": "~3.2",
         "cakephp/bake": "~1.1",
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "scherersoftware/cakephp-schema": "dev-master"
     },
     "autoload": {
         "psr-4": {

@@ -1,0 +1,332 @@
+ENVIRONMENT	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^define('ENVIRONMENT', Environment::detect());$/;"	define	line:74
+isCli	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^$isCli = php_sapi_name() === 'cli';$/;"	variable	line:133
+s	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^    $s = null;$/;"	variable	line:152
+s	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^        $s = 's';$/;"	variable	line:154
+httpHost	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^    $httpHost = env('HTTP_HOST');$/;"	variable	line:157
+detector	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^    $detector = new \\Detection\\MobileDetect();$/;"	variable	line:182
+detector	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^    $detector = new \\Detection\\MobileDetect();$/;"	variable	line:186
+dlog	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^function dlog()$/;"	function	line:230
+args	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^    $args = func_get_args();$/;"	variable	line:232
+arg	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^            $arg = print_r($arg, true);$/;"	variable	line:235
+ENVIRONMENT	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^define('ENVIRONMENT', Environment::detect());$/;"	define	line:74
+isCli	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^$isCli = php_sapi_name() === 'cli';$/;"	variable	line:133
+s	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^    $s = null;$/;"	variable	line:152
+s	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^        $s = 's';$/;"	variable	line:154
+httpHost	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^    $httpHost = env('HTTP_HOST');$/;"	variable	line:157
+detector	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^    $detector = new \\Detection\\MobileDetect();$/;"	variable	line:182
+detector	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^    $detector = new \\Detection\\MobileDetect();$/;"	variable	line:186
+dlog	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^function dlog()$/;"	function	line:230
+args	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^    $args = func_get_args();$/;"	variable	line:232
+arg	/Users/petergleixner/Sites/dotadude/config/bootstrap.php	/^            $arg = print_r($arg, true);$/;"	variable	line:235
+name	/Users/petergleixner/Sites/dotadude/composer.json	/^    "name": "scherersoftware\/cakephp-app-template",$/;"	function	line:2
+description	/Users/petergleixner/Sites/dotadude/composer.json	/^    "description": "CakePHP App Template",$/;"	function	line:3
+homepage	/Users/petergleixner/Sites/dotadude/composer.json	/^    "homepage": "http:\/\/cakephp.org",$/;"	function	line:4
+type	/Users/petergleixner/Sites/dotadude/composer.json	/^    "type": "project",$/;"	function	line:5
+license	/Users/petergleixner/Sites/dotadude/composer.json	/^    "license": "MIT",$/;"	function	line:6
+require	/Users/petergleixner/Sites/dotadude/composer.json	/^    "require": {$/;"	function	line:7
+php	/Users/petergleixner/Sites/dotadude/composer.json	/^        "php": ">=5.5.9",$/;"	function	line:8
+cakephp/cakephp	/Users/petergleixner/Sites/dotadude/composer.json	/^        "cakephp\/cakephp": "3.3.0-beta",$/;"	function	line:9
+mobiledetect/mobiledetectlib	/Users/petergleixner/Sites/dotadude/composer.json	/^        "mobiledetect\/mobiledetectlib": "2.*",$/;"	function	line:10
+cakephp/migrations	/Users/petergleixner/Sites/dotadude/composer.json	/^        "cakephp\/migrations": "~1.0",$/;"	function	line:11
+cakephp/plugin-installer	/Users/petergleixner/Sites/dotadude/composer.json	/^        "cakephp\/plugin-installer": "*",$/;"	function	line:12
+codekanzlei/cake-auth-actions	/Users/petergleixner/Sites/dotadude/composer.json	/^        "codekanzlei\/cake-auth-actions": "dev-master",$/;"	function	line:13
+codekanzlei/cake-list-filter	/Users/petergleixner/Sites/dotadude/composer.json	/^        "codekanzlei\/cake-list-filter": "dev-master",$/;"	function	line:14
+codekanzlei/cake-cktools	/Users/petergleixner/Sites/dotadude/composer.json	/^        "codekanzlei\/cake-cktools": "dev-master",$/;"	function	line:15
+codekanzlei/cake-frontend-bridge	/Users/petergleixner/Sites/dotadude/composer.json	/^        "codekanzlei\/cake-frontend-bridge": "dev-master",$/;"	function	line:16
+codekanzlei/cake-bootstrap3	/Users/petergleixner/Sites/dotadude/composer.json	/^        "codekanzlei\/cake-bootstrap3": "dev-master",$/;"	function	line:17
+scherersoftware/cake-monitor	/Users/petergleixner/Sites/dotadude/composer.json	/^        "scherersoftware\/cake-monitor": "dev-master",$/;"	function	line:18
+scherersoftware/cake-api-baselayer	/Users/petergleixner/Sites/dotadude/composer.json	/^        "scherersoftware\/cake-api-baselayer": "dev-master",$/;"	function	line:19
+codekanzlei/cake-model-history	/Users/petergleixner/Sites/dotadude/composer.json	/^        "codekanzlei\/cake-model-history": "dev-master",$/;"	function	line:20
+cakephp/cakephp-codesniffer	/Users/petergleixner/Sites/dotadude/composer.json	/^        "cakephp\/cakephp-codesniffer": "dev-master",$/;"	function	line:21
+markstory/asset_compress	/Users/petergleixner/Sites/dotadude/composer.json	/^        "markstory\/asset_compress": "3.0.*",$/;"	function	line:22
+tedivm/jshrink	/Users/petergleixner/Sites/dotadude/composer.json	/^        "tedivm\/jshrink": "~1.0",$/;"	function	line:23
+friendsofcake/bootstrap-ui	/Users/petergleixner/Sites/dotadude/composer.json	/^        "friendsofcake\/bootstrap-ui": "dev-master",$/;"	function	line:24
+oyejorge/less.php	/Users/petergleixner/Sites/dotadude/composer.json	/^        "oyejorge\/less.php": "*",$/;"	function	line:25
+admad/cakephp-glide	/Users/petergleixner/Sites/dotadude/composer.json	/^        "admad\/cakephp-glide": "dev-master",$/;"	function	line:26
+jdorn/sql-formatter	/Users/petergleixner/Sites/dotadude/composer.json	/^        "jdorn\/sql-formatter": "^1.2",$/;"	function	line:27
+josegonzalez/dotenv	/Users/petergleixner/Sites/dotadude/composer.json	/^        "josegonzalez\/dotenv": "^2.0"$/;"	function	line:28
+require-dev	/Users/petergleixner/Sites/dotadude/composer.json	/^    "require-dev": {$/;"	function	line:30
+psy/psysh	/Users/petergleixner/Sites/dotadude/composer.json	/^        "psy\/psysh": "@stable",$/;"	function	line:31
+cakephp/debug_kit	/Users/petergleixner/Sites/dotadude/composer.json	/^        "cakephp\/debug_kit": "~3.2",$/;"	function	line:32
+cakephp/bake	/Users/petergleixner/Sites/dotadude/composer.json	/^        "cakephp\/bake": "~1.1",$/;"	function	line:33
+phpunit/phpunit	/Users/petergleixner/Sites/dotadude/composer.json	/^        "phpunit\/phpunit": "*",$/;"	function	line:34
+scherersoftware/cakephp-schema	/Users/petergleixner/Sites/dotadude/composer.json	/^        "scherersoftware\/cakephp-schema": "dev-master"$/;"	function	line:35
+autoload	/Users/petergleixner/Sites/dotadude/composer.json	/^    "autoload": {$/;"	function	line:37
+psr-4	/Users/petergleixner/Sites/dotadude/composer.json	/^        "psr-4": {$/;"	function	line:38
+App\\	/Users/petergleixner/Sites/dotadude/composer.json	/^            "App\\\\": "src",$/;"	function	line:39
+Admin\\	/Users/petergleixner/Sites/dotadude/composer.json	/^            "Admin\\\\": ".\/plugins\/Admin\/src",$/;"	function	line:40
+Api\\V1\\	/Users/petergleixner/Sites/dotadude/composer.json	/^            "Api\\\\V1\\\\": ".\/plugins\/Api\/V1\/src",$/;"	function	line:41
+Api\\V2\\	/Users/petergleixner/Sites/dotadude/composer.json	/^            "Api\\\\V2\\\\": ".\/plugins\/Api\/V2\/src"$/;"	function	line:42
+autoload-dev	/Users/petergleixner/Sites/dotadude/composer.json	/^    "autoload-dev": {$/;"	function	line:45
+psr-4	/Users/petergleixner/Sites/dotadude/composer.json	/^        "psr-4": {$/;"	function	line:46
+App\\Test\\	/Users/petergleixner/Sites/dotadude/composer.json	/^            "App\\\\Test\\\\": "tests",$/;"	function	line:47
+Cake\\Test\\	/Users/petergleixner/Sites/dotadude/composer.json	/^            "Cake\\\\Test\\\\": ".\/vendor\/cakephp\/cakephp\/tests",$/;"	function	line:48
+Api\\V1\\Test\\	/Users/petergleixner/Sites/dotadude/composer.json	/^            "Api\\\\V1\\\\Test\\\\": ".\/plugins\/Api\/V1\/tests",$/;"	function	line:49
+Api\\V2\\Test\\	/Users/petergleixner/Sites/dotadude/composer.json	/^            "Api\\\\V2\\\\Test\\\\": ".\/plugins\/Api\/V2\/tests"$/;"	function	line:50
+scripts	/Users/petergleixner/Sites/dotadude/composer.json	/^    "scripts": {$/;"	function	line:53
+post-install-cmd	/Users/petergleixner/Sites/dotadude/composer.json	/^        "post-install-cmd": "App\\\\Console\\\\Installer::postInstall",$/;"	function	line:54
+post-autoload-dump	/Users/petergleixner/Sites/dotadude/composer.json	/^        "post-autoload-dump": "Cake\\\\Composer\\\\Installer\\\\PluginInstaller::postAutoloadDump"$/;"	function	line:55
+minimum-stability	/Users/petergleixner/Sites/dotadude/composer.json	/^    "minimum-stability": "dev",$/;"	function	line:57
+prefer-stable	/Users/petergleixner/Sites/dotadude/composer.json	/^    "prefer-stable": true$/;"	function	line:58
+based	/Users/petergleixner/Sites/dotadude/config/app.php	/^     * - paths - Configure paths for non class based resources. Supports the$/;"	class	line:36
+responsible	/Users/petergleixner/Sites/dotadude/config/app.php	/^     * - `exceptionRenderer` - string - The class responsible for rendering$/;"	class	line:144
+you	/Users/petergleixner/Sites/dotadude/config/app.php	/^     *   uncaught exceptions.  If you choose a custom class you should place$/;"	class	line:145
+in	/Users/petergleixner/Sites/dotadude/config/app.php	/^     *   the file for that class in src\/Error. This class needs to implement a$/;"	class	line:146
+to	/Users/petergleixner/Sites/dotadude/config/app.php	/^     *    class to use for managing the session. CakePHP bundles the `CacheSession`$/;"	class	line:337
+to	/Users/petergleixner/Sites/dotadude/config/app.php	/^     * - 'cache' - Use the Cache class to save sessions.$/;"	class	line:346
+implements	/Users/petergleixner/Sites/dotadude/config/app.php	/^     * Make sure the class implements PHP's `SessionHandlerInterface` and set$/;"	class	line:349
+config	/Users/petergleixner/Sites/dotadude/plugins/Admin/config/menu.php	/^$config = [$/;"	variable	line:2
+to	/Users/petergleixner/Sites/dotadude/config/routes.php	/^ * The default class to use for all routes$/;"	class	line:26
+used	/Users/petergleixner/Sites/dotadude/config/routes.php	/^ * If no call is made to `Router::defaultRouteClass`, the class used is$/;"	class	line:35
+can	/Users/petergleixner/Sites/dotadude/config/routes.php	/^     * Any route class can be used with this method, such as:$/;"	class	line:64
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/ReplayDataTable.php	/^ * @method \\App\\Model\\Entity\\ReplayData get($primaryKey, $options = [])$/;"	variable	line:12
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/ReplayDataTable.php	/^ * @method \\App\\Model\\Entity\\ReplayData newEntity($data = null, array $options = [])$/;"	variable	line:13
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/ReplayDataTable.php	/^ * @method \\App\\Model\\Entity\\ReplayData[] newEntities(array $data, array $options = [])$/;"	variable	line:14
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/ReplayDataTable.php	/^ * @method \\App\\Model\\Entity\\ReplayData|bool save(\\Cake\\Datasource\\EntityInterface $entity, $options = [])$/;"	variable	line:15
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/ReplayDataTable.php	/^ * @method \\App\\Model\\Entity\\ReplayData patchEntity(\\Cake\\Datasource\\EntityInterface $entity, array $data, array $options = [])$/;"	variable	line:16
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/ReplayDataTable.php	/^ * @method \\App\\Model\\Entity\\ReplayData[] patchEntities($entities, array $data, array $options = [])$/;"	variable	line:17
+callback	/Users/petergleixner/Sites/dotadude/src/Model/Table/ReplayDataTable.php	/^ * @method \\App\\Model\\Entity\\ReplayData findOrCreate($search, callable $callback = null)$/;"	variable	line:18
+ReplayDataTable	/Users/petergleixner/Sites/dotadude/src/Model/Table/ReplayDataTable.php	/^class ReplayDataTable extends Table$/;"	class	line:20
+initialize	/Users/petergleixner/Sites/dotadude/src/Model/Table/ReplayDataTable.php	/^    public function initialize(array $config)$/;"	function	line:29
+validationDefault	/Users/petergleixner/Sites/dotadude/src/Model/Table/ReplayDataTable.php	/^    public function validationDefault(Validator $validator)$/;"	function	line:45
+for	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^ * Html Helper class for easy use of HTML widgets.$/;"	class	line:24
+HtmlHelper	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^class HtmlHelper extends Helper$/;"	class	line:31
+helpers	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public $helpers = ['Url'];$/;"	variable	line:41
+helpers	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public $helpers = ['Url'];$/;"	variable	line:41
+response	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public $response;$/;"	variable	line:48
+_defaultConfig	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected $_defaultConfig = [$/;"	variable	line:55
+_defaultConfig	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected $_defaultConfig = [$/;"	variable	line:55
+_crumbs	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected $_crumbs = [];$/;"	variable	line:93
+_crumbs	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected $_crumbs = [];$/;"	variable	line:93
+_includedAssets	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected $_includedAssets = [];$/;"	variable	line:100
+_includedAssets	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected $_includedAssets = [];$/;"	variable	line:100
+_scriptBlockOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected $_scriptBlockOptions = [];$/;"	variable	line:107
+_scriptBlockOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected $_scriptBlockOptions = [];$/;"	variable	line:107
+_docTypes	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected $_docTypes = [$/;"	variable	line:114
+_docTypes	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected $_docTypes = [$/;"	variable	line:114
+__construct	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function __construct(View $View, array $config = [])$/;"	function	line:141
+config	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function __construct(View $View, array $config = [])$/;"	variable	line:141
+response	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $this->response = $this->_View->response ?: new Response();$/;"	variable	line:144
+addCrumb	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function addCrumb($name, $link = null, array $options = [])$/;"	function	line:157
+link	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function addCrumb($name, $link = null, array $options = [])$/;"	variable	line:157
+docType	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function docType($type = 'html5')$/;"	function	line:181
+meta	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function meta($type, $content = null, array $options = [])$/;"	function	line:226
+content	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function meta($type, $content = null, array $options = [])$/;"	variable	line:226
+types	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $types = [$/;"	variable	line:231
+content	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            if ($type === 'icon' && $content === null) {$/;"	variable	line:241
+type	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $type = $types[$type];$/;"	variable	line:246
+type	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                    $type = $types[$content['_ext']];$/;"	variable	line:249
+type	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                    $type = ['name' => $type, 'content' => $content];$/;"	variable	line:251
+type	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $type = $types[$options['type']];$/;"	variable	line:254
+type	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $type = [];$/;"	variable	line:257
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $out = null;$/;"	variable	line:262
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $out = $this->formatTemplate('metalink', [$/;"	variable	line:267
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $out = $this->formatTemplate('meta', [$/;"	variable	line:278
+charset	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function charset($charset = null)$/;"	function	line:300
+charset	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $charset = strtolower(Configure::read('App.encoding'));$/;"	variable	line:303
+link	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function link($title, $url = null, array $options = [])$/;"	function	line:333
+url	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function link($title, $url = null, array $options = [])$/;"	variable	line:333
+escapeTitle	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $escapeTitle = true;$/;"	variable	line:335
+url	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $url = $this->Url->build($url);$/;"	variable	line:337
+url	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $url = $this->Url->build($title);$/;"	variable	line:339
+title	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $title = htmlspecialchars_decode($url, ENT_QUOTES);$/;"	variable	line:340
+title	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $title = h(urldecode($title));$/;"	variable	line:341
+escapeTitle	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $escapeTitle = false;$/;"	variable	line:342
+escapeTitle	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $escapeTitle = $options['escapeTitle'];$/;"	variable	line:346
+escapeTitle	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $escapeTitle = $options['escape'];$/;"	variable	line:349
+title	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $title = h($title);$/;"	variable	line:353
+title	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $title = htmlentities($title, ENT_QUOTES, $escapeTitle);$/;"	variable	line:355
+confirmMessage	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $confirmMessage = null;$/;"	variable	line:358
+confirmMessage	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $confirmMessage = $options['confirm'];$/;"	variable	line:360
+templater	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $templater = $this->templater();$/;"	variable	line:367
+css	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function css($path, array $options = [])$/;"	function	line:422
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function css($path, array $options = [])$/;"	variable	line:422
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $out = '';$/;"	variable	line:427
+url	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $url = $path;$/;"	variable	line:438
+url	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $url = $this->Url->css($path, $options);$/;"	variable	line:440
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $options = array_diff_key($options, ['fullBase' => null, 'pathPrefix' => null]);$/;"	variable	line:441
+templater	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $templater = $this->templater();$/;"	variable	line:449
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $out = $templater->format('style', [$/;"	variable	line:452
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $out = $templater->format('css', [$/;"	variable	line:457
+script	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function script($url, array $options = [])$/;"	function	line:514
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function script($url, array $options = [])$/;"	variable	line:514
+defaults	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $defaults = ['block' => null, 'once' => true];$/;"	variable	line:516
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $out = '';$/;"	variable	line:520
+url	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $url = $this->Url->script($url, $options);$/;"	variable	line:531
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $options = array_diff_key($options, ['fullBase' => null, 'pathPrefix' => null]);$/;"	variable	line:532
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $out = $this->formatTemplate('javascriptlink', [$/;"	variable	line:539
+scriptBlock	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function scriptBlock($script, array $options = [])$/;"	function	line:568
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function scriptBlock($script, array $options = [])$/;"	variable	line:568
+script	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $script = "\\n" . '\/\/<![CDATA[' . "\\n" . $script . "\\n" . '\/\/]]>' . "\\n";$/;"	variable	line:572
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $out = $this->formatTemplate('javascriptblock', [$/;"	variable	line:576
+scriptStart	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function scriptStart(array $options = [])$/;"	function	line:605
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function scriptStart(array $options = [])$/;"	variable	line:605
+_scriptBlockOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $this->_scriptBlockOptions = $options;$/;"	variable	line:608
+scriptEnd	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function scriptEnd()$/;"	function	line:620
+buffer	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $buffer = ob_get_clean();$/;"	variable	line:622
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $options = $this->_scriptBlockOptions;$/;"	variable	line:623
+_scriptBlockOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $this->_scriptBlockOptions = [];$/;"	variable	line:624
+style	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function style(array $data, $oneLine = true)$/;"	function	line:645
+oneLine	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function style(array $data, $oneLine = true)$/;"	variable	line:645
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $out = [];$/;"	variable	line:647
+key	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        foreach ($data as $key => $value) {$/;"	variable	line:648
+getCrumbs	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function getCrumbs($separator = '&raquo;', $startText = false)$/;"	function	line:673
+startText	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function getCrumbs($separator = '&raquo;', $startText = false)$/;"	variable	line:673
+crumbs	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $crumbs = $this->_prepareCrumbs($startText);$/;"	variable	line:675
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $out = [];$/;"	variable	line:677
+getCrumbList	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function getCrumbList(array $options = [], $startText = false)$/;"	function	line:709
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function getCrumbList(array $options = [], $startText = false)$/;"	variable	line:709
+defaults	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $defaults = ['firstClass' => 'first', 'lastClass' => 'last', 'separator' => '', 'escape' => true];$/;"	variable	line:711
+firstClass	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $firstClass = $options['firstClass'];$/;"	variable	line:713
+lastClass	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $lastClass = $options['lastClass'];$/;"	variable	line:714
+separator	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $separator = $options['separator'];$/;"	variable	line:715
+escape	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $escape = $options['escape'];$/;"	variable	line:716
+crumbs	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $crumbs = $this->_prepareCrumbs($startText, $escape);$/;"	variable	line:719
+result	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $result = '';$/;"	variable	line:724
+crumbCount	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $crumbCount = count($crumbs);$/;"	variable	line:725
+ulOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $ulOptions = $options;$/;"	variable	line:726
+which	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        foreach ($crumbs as $which => $crumb) {$/;"	variable	line:727
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $options = [];$/;"	variable	line:728
+elementContent	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $elementContent = $crumb[0];$/;"	variable	line:730
+elementContent	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $elementContent = $this->link($crumb[0], $crumb[1], $crumb[2]);$/;"	variable	line:732
+_prepareCrumbs	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected function _prepareCrumbs($startText, $escape = true)$/;"	function	line:760
+escape	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected function _prepareCrumbs($startText, $escape = true)$/;"	variable	line:760
+crumbs	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $crumbs = $this->_crumbs;$/;"	variable	line:762
+startText	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $startText = [$/;"	variable	line:765
+image	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function image($path, array $options = [])$/;"	function	line:809
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function image($path, array $options = [])$/;"	variable	line:809
+path	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $path = $this->Url->image($path, $options);$/;"	variable	line:811
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $options = array_diff_key($options, ['fullBase' => null, 'pathPrefix' => null]);$/;"	variable	line:812
+url	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $url = false;$/;"	variable	line:818
+url	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $url = $options['url'];$/;"	variable	line:820
+templater	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $templater = $this->templater();$/;"	variable	line:824
+image	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $image = $templater->format('image', [$/;"	variable	line:825
+tableHeaders	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function tableHeaders(array $names, array $trOptions = null, array $thOptions = null)$/;"	function	line:850
+trOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function tableHeaders(array $names, array $trOptions = null, array $thOptions = null)$/;"	variable	line:850
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $out = [];$/;"	variable	line:852
+tableCells	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function tableCells($data, $oddTrOptions = null, $evenTrOptions = null, $useCount = false, $continueOddEven = true)$/;"	function	line:882
+oddTrOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function tableCells($data, $oddTrOptions = null, $evenTrOptions = null, $useCount = false, $continueOddEven = true)$/;"	variable	line:882
+data	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $data = [$data];$/;"	variable	line:885
+useCount	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $useCount = true;$/;"	variable	line:889
+oddTrOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $oddTrOptions = null;$/;"	variable	line:890
+continueOddEven	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $continueOddEven = false;$/;"	variable	line:894
+evenTrOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $evenTrOptions = null;$/;"	variable	line:895
+count	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            static $count = 0;$/;"	variable	line:899
+count	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            static $count = 0;$/;"	variable	line:899
+count	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $count = 0;$/;"	variable	line:901
+cellsOut	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $cellsOut = $this->_renderCells($line, $useCount);$/;"	variable	line:906
+opts	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $opts = $count % 2 ? $oddTrOptions : $evenTrOptions;$/;"	variable	line:907
+_renderCells	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected function _renderCells($line, $useCount = false)$/;"	function	line:924
+useCount	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected function _renderCells($line, $useCount = false)$/;"	variable	line:924
+i	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $i = 0;$/;"	variable	line:926
+cellsOut	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $cellsOut = [];$/;"	variable	line:927
+cellOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $cellOptions = [];$/;"	variable	line:929
+cellOptions	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $cellOptions = $cell[1];$/;"	variable	line:932
+cell	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $cell = $cell[0];$/;"	variable	line:933
+tableRow	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function tableRow($content, array $options = [])$/;"	function	line:956
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function tableRow($content, array $options = [])$/;"	variable	line:956
+tableCell	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function tableCell($content, array $options = [])$/;"	function	line:971
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function tableCell($content, array $options = [])$/;"	variable	line:971
+tag	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function tag($name, $text = null, array $options = [])$/;"	function	line:992
+text	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function tag($name, $text = null, array $options = [])$/;"	variable	line:992
+text	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $text = h($text);$/;"	variable	line:998
+tag	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $tag = 'tagstart';$/;"	variable	line:1002
+tag	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $tag = 'tag';$/;"	variable	line:1004
+name	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^     * @param string|null $class CSS class name of the div element.$/;"	class	line:1020
+div	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function div($class = null, $text = null, array $options = [])$/;"	function	line:1026
+text	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function div($class = null, $text = null, array $options = [])$/;"	variable	line:1026
+name	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^     * @param string $class CSS class name of the p element.$/;"	class	line:1041
+para	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function para($class, $text, array $options = [])$/;"	function	line:1046
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function para($class, $text, array $options = [])$/;"	variable	line:1046
+text	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $text = h($text);$/;"	variable	line:1049
+tag	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $tag = 'para';$/;"	variable	line:1054
+tag	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $tag = 'parastart';$/;"	variable	line:1056
+media	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function media($path, array $options = [])$/;"	function	line:1120
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function media($path, array $options = [])$/;"	variable	line:1120
+tag	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $tag = $options['tag'];$/;"	variable	line:1129
+tag	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $tag = null;$/;"	variable	line:1131
+sourceTags	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^            $sourceTags = '';$/;"	variable	line:1135
+source	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                    $source = [$/;"	variable	line:1138
+ext	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                    $ext = pathinfo($source['src'], PATHINFO_EXTENSION);$/;"	variable	line:1143
+path	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $path = $options['src'];$/;"	variable	line:1157
+mimeType	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $mimeType = $path[0]['type'];$/;"	variable	line:1164
+mimeType	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $mimeType = $this->response->getMimeType(pathinfo($path, PATHINFO_EXTENSION));$/;"	variable	line:1166
+tag	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $tag = 'video';$/;"	variable	line:1169
+tag	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $tag = 'audio';$/;"	variable	line:1171
+text	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $text = $options['text'];$/;"	variable	line:1178
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $options = array_diff_key($options, [$/;"	variable	line:1180
+nestedList	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function nestedList(array $list, array $options = [], array $itemOptions = [])$/;"	function	line:1207
+options	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function nestedList(array $list, array $options = [], array $itemOptions = [])$/;"	variable	line:1207
+items	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $items = $this->_nestedListItem($list, $options, $itemOptions);$/;"	variable	line:1210
+to	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^     * Internal function to build a nested list (UL\/OL) out of an associative array.$/;"	function	line:1218
+_nestedListItem	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    protected function _nestedListItem($items, $options, $itemOptions)$/;"	function	line:1226
+out	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $out = '';$/;"	variable	line:1228
+index	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        $index = 1;$/;"	variable	line:1230
+key	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^        foreach ($items as $key => $item) {$/;"	variable	line:1231
+item	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^                $item = $key . $this->nestedList($item, $options, $itemOptions);$/;"	variable	line:1233
+implementedEvents	/Users/petergleixner/Sites/dotadude/vendor/cakephp/cakephp/src/View/Helper/HtmlHelper.php	/^    public function implementedEvents()$/;"	function	line:1254
+HtmlHelper	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^class HtmlHelper extends \\Cake\\View\\Helper\\HtmlHelper$/;"	class	line:4
+badge	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^    public function badge($text, array $options = [])$/;"	function	line:15
+options	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^    public function badge($text, array $options = [])$/;"	variable	line:15
+tag	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^        $tag = $options['tag'];$/;"	variable	line:18
+getCrumbList	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^    public function getCrumbList(array $options = [], $startText = false)$/;"	function	line:42
+options	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^    public function getCrumbList(array $options = [], $startText = false)$/;"	variable	line:42
+icon	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^    public function icon($name, array $options = [])$/;"	function	line:57
+options	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^    public function icon($name, array $options = [])$/;"	variable	line:57
+classes	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^        $classes = [$options['iconSet'], $options['iconSet'] . '-' . $name];$/;"	variable	line:65
+options	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^        $options = $this->injectClasses($classes, $options);$/;"	variable	line:66
+label	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^    public function label($text, $options = [])$/;"	function	line:81
+options	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^    public function label($text, $options = [])$/;"	variable	line:81
+options	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^            $options = ['type' => $options];$/;"	variable	line:84
+classes	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^        $classes = ['label', 'label-' . $options['type']];$/;"	variable	line:92
+tag	/Users/petergleixner/Sites/dotadude/vendor/friendsofcake/bootstrap-ui/src/View/Helper/HtmlHelper.php	/^        $tag = $options['tag'];$/;"	variable	line:93
+config	/Users/petergleixner/Sites/dotadude/config/auth_actions.php	/^$config = [$/;"	variable	line:4
+ReplayDataController	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^class ReplayDataController extends AppController$/;"	class	line:14
+index	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^    public function index()$/;"	function	line:22
+link	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^        \/\/ $link = pg_connect("dbname=postgres user=petergleixner password=");$/;"	variable	line:24
+result	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^        \/\/ $result = pg_exec($link, "select * from replays");$/;"	variable	line:25
+data	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^        $data = $this->request->data;$/;"	variable	line:28
+file	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $file = $this->request->data['replay_file'];$/;"	variable	line:32
+replayPath	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $replayPath = WWW_ROOT . '\/upload\/replay_files\/';$/;"	variable	line:33
+jarPath	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $jarPath = WWW_ROOT . '\/java\/dem-to-json.jar';$/;"	variable	line:34
+matchId	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $matchId =  explode(".", $file['name'], 2)[0];$/;"	variable	line:37
+ext	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $ext = explode(".", $file['name'], 2)[1];$/;"	variable	line:38
+uploadSuccess	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^                $uploadSuccess = move_uploaded_file($file['tmp_name'], $replayPath . $file['name']);$/;"	variable	line:41
+summary	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^ * undocumented function summary$/;"	function	line:61
+long	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^ * Undocumented function long description$/;"	function	line:63
+parseReplay	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^    public function parseReplay($matchId = '')$/;"	function	line:68
+replayFilePath	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $replayFilePath = WWW_ROOT . 'upload\/replay_files\/' . $matchId . '.dem';$/;"	variable	line:71
+jarPath	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $jarPath = WWW_ROOT . 'java\/dem-to-json.jar';$/;"	variable	line:72
+jsonFilePath	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $jsonFilePath = WWW_ROOT . 'upload\/replay_files\/' . $matchId . '.json';$/;"	variable	line:73
+pyPath	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $pyPath = WWW_ROOT . 'python\/goldXp.py';$/;"	variable	line:74
+output_java	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $output_java = shell_exec('java -jar' . ' ' . $jarPath . ' ' . $replayFilePath . ' ' .  $jsonFilePath);$/;"	variable	line:77
+jsonDecoded	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $jsonDecoded = json_decode(file_get_contents($jsonFilePath), true);$/;"	variable	line:79
+query	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^            $query = $this->ReplayData->query()->insert(['match_id', 'replay_file'])$/;"	variable	line:82
+tmpRepFile	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^                $tmpRepFile = new File($replayFilePath);$/;"	variable	line:91
+tmpJsonFile	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^                $tmpJsonFile = new File($jsonFilePath);$/;"	variable	line:93
+output_python	/Users/petergleixner/Sites/dotadude/src/Controller/ReplayDataController.php	/^                $output_python = shell_exec('python ' . $pyPath . ' ' . $matchId);$/;"	variable	line:96
+GoldXpController	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^class GoldXpController extends AppController$/;"	class	line:11
+index	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^    public function index($matchId = '')$/;"	function	line:19
+goldXp	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^        $goldXp = $this->paginate($this->GoldXp);$/;"	variable	line:22
+allHeroes	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^        $allHeroes = $this->GoldXp->findAllByMatchId($matchId)->toArray();$/;"	variable	line:24
+view	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^    public function view($id = null)$/;"	function	line:39
+goldXp	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^        $goldXp = $this->GoldXp->get($id, [$/;"	variable	line:41
+add	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^    public function add()$/;"	function	line:55
+goldXp	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^        $goldXp = $this->GoldXp->newEntity();$/;"	variable	line:57
+goldXp	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^            $goldXp = $this->GoldXp->patchEntity($goldXp, $this->request->data);$/;"	variable	line:59
+edit	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^    public function edit($id = null)$/;"	function	line:79
+goldXp	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^        $goldXp = $this->GoldXp->get($id, [$/;"	variable	line:81
+goldXp	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^            $goldXp = $this->GoldXp->patchEntity($goldXp, $this->request->data);$/;"	variable	line:85
+delete	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^    public function delete($id = null)$/;"	function	line:105
+goldXp	/Users/petergleixner/Sites/dotadude/src/Controller/GoldXpController.php	/^        $goldXp = $this->GoldXp->get($id);$/;"	variable	line:108
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp get($primaryKey, $options = [])$/;"	variable	line:14
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp newEntity($data = null, array $options = [])$/;"	variable	line:15
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp[] newEntities(array $data, array $options = [])$/;"	variable	line:16
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp|bool save(\\Cake\\Datasource\\EntityInterface $entity, $options = [])$/;"	variable	line:17
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp patchEntity(\\Cake\\Datasource\\EntityInterface $entity, array $data, array $options = [])$/;"	variable	line:18
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp[] patchEntities($entities, array $data, array $options = [])$/;"	variable	line:19
+callback	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp findOrCreate($search, callable $callback = null)$/;"	variable	line:20
+GoldXpTable	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^class GoldXpTable extends Table$/;"	class	line:22
+initialize	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^    public function initialize(array $config)$/;"	function	line:31
+validationDefault	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^    public function validationDefault(Validator $validator)$/;"	function	line:46
+buildRules	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^    public function buildRules(RulesChecker $rules)$/;"	function	line:68

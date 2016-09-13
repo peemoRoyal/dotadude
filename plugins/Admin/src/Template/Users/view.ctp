@@ -8,19 +8,19 @@
 
 <div class="users view">
     <dl class="dl dl-horizontal">
-        
+
         <dt><?= __('user.id') ?></dt>
         <dd><?= h($user->id) ?></dd>
-                    
+
         <dt><?= __('user.status') ?></dt>
         <dd><?= $this->Utils->statusLabel($user->status) ?></dd>
-                    
+
         <dt><?= __('user.role') ?></dt>
         <dd><?= h($user->role) ?></dd>
-                    
+
         <dt><?= __('user.firstname') ?></dt>
         <dd><?= h($user->firstname) ?></dd>
-                    
+
         <dt><?= __('user.lastname') ?></dt>
         <dd><?= h($user->lastname) ?></dd>
 

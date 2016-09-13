@@ -37,30 +37,7 @@ class UsersTable extends Table
         $this->displayField('email');
         $this->primaryKey('id');
 
-        $this->addBehavior('Attachments.Attachments', [
-            'downloadAuthorizeCallback' => function (Attachment $attachment, User $user, Request $request) {
-                $loggedIn = $request->session()->check('Auth.User');
-                if ($loggedIn) {
-                    // Allowed for Admins
-                    if ($request->session()->read('Auth.User.role') == User::ROLE_ADMIN) {
-                        return true;
-                    }
-                    // Allowed for the posessing user himself
-                    if ($request->session()->read('Auth.User.id') === $user->id) {
-                        return true;
-                    }
-                }
-                return false;
-            }
-        ]);
 
-        $this->addBehavior('ModelHistory.Historizable', [
-            'userNameFields' => [
-                'firstname' => 'firstname',
-                'lastname' => 'lastname',
-                'id' => 'Users.id'
-            ]
-        ]);
 
         $this->addBehavior('Timestamp');
     }

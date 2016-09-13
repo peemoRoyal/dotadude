@@ -48,12 +48,11 @@ Router::scope('/', function ($routes) {
      * its action called 'display', and we pass a param to select the view file
      * to use (in this case, src/Template/Pages/home.ctp)...
      */
-    $routes->connect('/', ['controller' => 'Home', 'action' => 'index']);
+    $routes->connect('/', ['controller' => 'ReplayData', 'action' => 'index']);
 
     $routes->connect('/admin', ['plugin' => 'Admin', 'controller' => 'Dashboard', 'action' => 'index']);
     $routes->connect('/admin/login', ['plugin' => 'Admin', 'controller' => 'Login', 'action' => 'login']);
 
-    $routes->connect('/:slug', Configure::read('Cms.Frontend.renderAction'), ['routeClass' => 'Cms.SlugRoute']);
 
     /**
      * Connect catchall routes for all controllers.

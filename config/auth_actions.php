@@ -7,6 +7,8 @@ $config = [
     ],
     'public_actions' => [
         'Home' => '*',
+        'ReplayData' => '*',
+        'GoldXp' => '*',
         'Admin.Login' => [
             'login',
             'logout',
@@ -17,13 +19,9 @@ $config = [
             'authenticate',
             'logout'
         ],
-        'Cms.CmsPages' => [
-            'show'
-        ],
         'CkTools.Moxiemanager' => [
             'api'
         ],
-        'Scherersoftware/Wiki.WikiPages' => '*'
     ],
     'auth_actions' => [
         'Admin.Dashboard' => [
@@ -36,17 +34,6 @@ $config = [
             '*' => [User::ROLE_ADMIN]
         ],
         'Admin.Login' => [
-            '*' => [User::ROLE_ADMIN]
-        ],
-        'ModelHistory.ModelHistory' => [
-            '*' => [User::ROLE_ADMIN]
-        ],
-        'Notifications.NotificationContents' => [
-            '*' => [User::ROLE_ADMIN]
-        ],
-        'Attachments.Attachments' => [
-            'preview' => '*',
-            'download' => '*',
             '*' => [User::ROLE_ADMIN]
         ],
         'Cms.CmsPages' => [

@@ -13,7 +13,6 @@ class HomeController extends AppController
      */
     public function index()
     {
-        $this->FrontendBridge->setJson('demoText', 'I was passed from the Backend to the Frontend via FrontendBridge');
     }
 
     /**

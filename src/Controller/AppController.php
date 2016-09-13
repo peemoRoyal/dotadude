@@ -36,12 +36,10 @@ class AppController extends Controller
         ],
         'Auth' => ['className' => 'AuthActions.Auth'],
         'FrontendBridge' => ['className' => 'FrontendBridge.FrontendBridge'],
-        'ModelHistory.ModelHistory',
         'CkTools.CkTools',
         'CkTools.TinyMce',
         'ListFilter.ListFilter',
         'AssetCompress.AssetCompress',
-        'Attachments.Attachments',
         'ADmad/Glide.Glide'
     ];
 
@@ -97,11 +95,6 @@ class AppController extends Controller
         $this->initAuthActions();
         $this->loadModel('Users');
         $this->Auth->eventManager()->attach([$this->Users, 'resetLoginRetriesListener'], 'Auth.afterIdentify');
-
-        if (PHP_SAPI !== 'cli') {
-            $notificationHandler = new NotificationHandler();
-            $notificationHandler->handleEvents();
-        }
 
         $this->_apiTokenAuthentication();
         if (!$this->AuthUtils->loggedIn() && $userId = $this->AuthUtils->checkRememberMeCookie()) {

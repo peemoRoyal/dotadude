@@ -69,7 +69,6 @@ use Cake\Network\Request;
 use Cake\Routing\DispatcherFactory;
 use Cake\Utility\Inflector;
 use Cake\Utility\Security;
-use Josegonzalez\CakeQueuesadilla\Queue\Queue;
 
 Environment::loadVariables();
 define('ENVIRONMENT', Environment::detect());
@@ -198,17 +197,12 @@ Plugin::load('CkTools', ['bootstrap' => false, 'routes' => true]);
 Plugin::load('FrontendBridge', ['bootstrap' => false, 'routes' => true, 'autoload' => true]);
 Plugin::load('AuthActions', ['bootstrap' => false, 'routes' => false]);
 Plugin::load('ListFilter', ['bootstrap' => false, 'routes' => false]);
-Plugin::load('Notifications', ['bootstrap' => false, 'routes' => true]);
-Plugin::load('Attachments', ['bootstrap' => false, 'routes' => true]);
-Plugin::load('ModelHistory', ['bootstrap' => false, 'routes' => true]);
-Plugin::load('Cms', ['bootstrap' => true, 'routes' => true]);
 Plugin::load('AssetCompress', ['bootstrap' => true]);
 Plugin::load('Api/V1', ['bootstrap' => true, 'routes' => true]);
 Plugin::load('Api/V2', ['bootstrap' => true, 'routes' => true]);
-Plugin::load('Scherersoftware/Wiki', ['bootstrap' => true, 'routes' => true]);
-Plugin::load('Josegonzalez/CakeQueuesadilla');
+Plugin::load('Schema', ['bootstrap' => true]);
+Plugin::load('ModelHistory', ['bootstrap' => false, 'routes' => true]);
 
-Queue::config(Configure::consume('Queuesadilla'));
 
 Configure::write('AssetCompress.rawMode', false);
 if (ENVIRONMENT === Environment::DEVELOPMENT) {
@@ -248,7 +242,6 @@ function dlog()
  * Connect middleware/dispatcher filters.
  */
 DispatcherFactory::add('Asset');
-DispatcherFactory::add('Cms.WidgetAsset');
 DispatcherFactory::add('ADmad/Glide.Glide', ['for' => '/images']);
 DispatcherFactory::add('Routing');
 DispatcherFactory::add('ControllerFactory');

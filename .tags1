@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp get($primaryKey, $options = [])$/;"	variable	line:14
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp newEntity($data = null, array $options = [])$/;"	variable	line:15
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp[] newEntities(array $data, array $options = [])$/;"	variable	line:16
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp|bool save(\\Cake\\Datasource\\EntityInterface $entity, $options = [])$/;"	variable	line:17
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp patchEntity(\\Cake\\Datasource\\EntityInterface $entity, array $data, array $options = [])$/;"	variable	line:18
+options	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp[] patchEntities($entities, array $data, array $options = [])$/;"	variable	line:19
+callback	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^ * @method \\App\\Model\\Entity\\GoldXp findOrCreate($search, callable $callback = null)$/;"	variable	line:20
+GoldXpTable	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^class GoldXpTable extends Table$/;"	class	line:22
+initialize	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^    public function initialize(array $config)$/;"	function	line:31
+validationDefault	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^    public function validationDefault(Validator $validator)$/;"	function	line:46
+buildRules	/Users/petergleixner/Sites/dotadude/src/Model/Table/GoldXpTable.php	/^    public function buildRules(RulesChecker $rules)$/;"	function	line:68

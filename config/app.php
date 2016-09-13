@@ -220,18 +220,24 @@ return [
     'Datasources' => [
         'default' => [
             'className' => 'Cake\Database\Connection',
-            'driver' => 'Cake\Database\Driver\Mysql',
+            // 'driver' => 'Cake\Database\Driver\Mysql',
+            'driver' => 'Cake\Database\Driver\Postgres',
             'persistent' => false,
-            'host' => Environment::read('MYSQL_HOST'),
+            // 'host' => Environment::read('MYSQL_HOST'),
+            'host' => Environment::read('POSTGRES_HOST'),
             /*
             * CakePHP will use the default DB port based on the driver selected
             * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
             * the following line and set the port accordingly
             */
-            //'port' => 'nonstandard_port_number',
-            'username' => Environment::read('MYSQL_USERNAME'),
-            'password' => Environment::read('MYSQL_PASSWORD'),
-            'database' => Environment::read('MYSQL_DATABASE'),
+            // 'port' => 'nonstandard_port_number',
+            'port' => '5432',
+            // 'username' => Environment::read('MYSQL_USERNAME'),
+            // 'password' => Environment::read('MYSQL_PASSWORD'),
+            // 'database' => Environment::read('MYSQL_DATABASE'),
+            'username' => Environment::read('POSTGRES_USERNAME'),
+            'password' => Environment::read('POSTGRES_PASSWORD'),
+            'database' => Environment::read('POSTGRES_DATABASE'),
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'cacheMetadata' => true,
@@ -254,7 +260,7 @@ return [
              * which is the recommended value in production environments
              */
             //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
-            
+
             'url' => env('DATABASE_URL', null),
         ],
 
@@ -354,35 +360,12 @@ return [
             'session.cookie_domain' => '.' . Environment::read('MAIN_DOMAIN')
         ]
     ],
-    'Attachments' => [
-        'tmpUploadsPath' => ROOT . '/tmp/uploads/',
-        'path' => ROOT . '/app_data/attachments/',
-        'acceptedFileTypes' => '/\.(gif|jpe?g|png|pdf|docx|doc|xls|xlsx|tif|tiff|zip)$/i'
-    ],
     'Authentication' => [
         'max_login_retries' => 5,
         'login_lock_duration' => '1 hour'
     ],
     'AssetCompress' => [
         'rawMode' => true // include all assets instead of combined versions if true
-    ],
-    'Notifications' => [
-        'default_language' => 'en',
-        'transports' => [
-            'email' => [
-                'profile' => 'default',
-                'emailTransport' => 'default',
-                'templated' => false,
-                'template' => 'default',
-                'layout' => 'standard'
-            ],
-        ],
-        'Administration' => [
-            'layout' => 'Admin.default',
-            'helpers' => [
-                'CkTools.Menu'
-            ]
-        ]
     ],
     'CkTools' => [
         'moxiemanager' => [
@@ -404,30 +387,7 @@ return [
             'Expires' => true
         ]
     ],
-    'Cms' => [
-        'Administration' => [
-            'layout' => 'Admin.default',
-            'helpers' => [
-                'CkTools.Menu'
-            ]
-        ]
-    ],
-    'Wiki' => [
-        'Administration' => [
-            'layout' => 'Admin.default',
-            'helpers' => [
-                'CkTools.Menu'
-            ]
-        ],
-        'useModelHistory' => true,
-        'modelHistoryOptions' => [
-            'userNameFields' => [
-                'firstname' => 'Users.firstname',
-                'lastname' => 'Users.lastname',
-                'id' => 'Users.id'
-            ]
-        ]
-    ],
+    
     'CakeMonitor' => [
         'accessToken' => '<VERY_SECURE_TOKEN>',
         'projectName' => '<PROJECT_NAME>',

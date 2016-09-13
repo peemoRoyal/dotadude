@@ -1,5 +1,5 @@
 Frontend.AppController = Frontend.Controller.extend({
-    baseComponents: ['Attachments', 'ModelHistory', 'DatePicker', 'TinyMce', 'MoxmanPicker'],
+    baseComponents: ['DatePicker', 'TinyMce', 'MoxmanPicker'],
     _initialize: function() {
         this.initGlobalFunctionality();
         if (this.isAdminArea()) {
