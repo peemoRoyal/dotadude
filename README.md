@@ -29,6 +29,7 @@ Use this commmand to parse the project for translation strings and update the `d
 
 A custom Bootstrap LESS file includes some overrides to variables. It is located in `webroot/less/custom_bootstrap.less` and includes the `custom_variables.less` file from the same folder.
 
+
 Command for compiling the file is:
 
     lessc webroot/less/custom_bootstrap.less > webroot/css/bootstrap.custom.css

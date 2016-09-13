@@ -21,19 +21,12 @@ class ReplayDataController extends AppController
      */
     public function index()
     {
-        // $link = pg_connect("dbname=postgres user=petergleixner password=");
-        // $result = pg_exec($link, "select * from replays");
-        // debug($result);
-
         $data = $this->request->data;
-
         // Check if replay_file and upload it
         if (!empty($this->request->data['replay_file'])) {
             $file = $this->request->data['replay_file'];
             $replayPath = WWW_ROOT . '/upload/replay_files/';
             $jarPath = WWW_ROOT . '/java/dem-to-json.jar';
-
-
             $matchId =  explode(".", $file['name'], 2)[0];
             $ext = explode(".", $file['name'], 2)[1];
             //Check if extension is allowed
@@ -77,7 +70,6 @@ class ReplayDataController extends AppController
             $output_java = shell_exec('java -jar' . ' ' . $jarPath . ' ' . $replayFilePath . ' ' .  $jsonFilePath);
 
             $jsonDecoded = json_decode(file_get_contents($jsonFilePath), true);
-
 
             $query = $this->ReplayData->query()->insert(['match_id', 'replay_file'])
                 ->values([
